@@ -1,3 +1,9 @@
+## Project Hosted URL: https://prepbytes-clone.netlify.app/
+
+## Project REPO URL: https://github.com/Sajal4/Prepbytes_clone
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
