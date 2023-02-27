@@ -1,0 +1,584 @@
+/* hide */
+.menuicon{
+  display: none;
+  background-image:url('./Images/menu.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 40px;
+  width: 60px;
+ 
+
+}
+/* hide */
+.mobile-log{
+  display: none;
+}
+.mobile-log select{
+  display: none;
+  position: relative;
+  top: 20px;
+  left: -13px;
+}
+#V{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  margin: auto;
+  display: inline-block;
+  background-color: rgb(86, 86, 240);
+}
+.vanshikha{
+  color: gray;
+  margin-left: 10px;
+}
+.navcontainer{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+}
+.logo{
+    background-image: url('./Images/p1.jpg');
+    background-size: 100% 100%;
+    height: 50px;
+    width: 160px;
+}
+nav{
+    height: 40px;
+    width: 60%;
+    position: absolute;
+    top: 40px;
+    color: gray;
+    left: 40%;
+
+}
+.button1{
+ color:blue;
+ border: none;
+ border-radius: 15px;
+}
+.button2{
+  color:blue;
+  border: none;
+  background-color: rgb(241, 83, 83);
+  border-radius: 15px;
+ }
+ul {
+   
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+     text-decoration: none;
+     color: gray;
+    
+  }
+  .bigparent{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 20px;
+  }
+  .bannerparent{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .bannerleft{
+    height: 100%;
+    width: 40%;
+    background-color: rgba(90, 90, 250, 0.897);
+    border-radius: 10px solid blue;
+  }
+  .bannerright{
+  background-image: url('./Images/Abous-Us-Banner.jpg');
+  background-size: 100% 100%;
+  height: 100%;
+  width: 60%;
+  }
+  li{
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+  }
+  .bannertext{
+    height: 40vh;
+    width: 25%;
+    z-index: +1;
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    font-size: 22px;
+    color:white
+  } 
+  .journy{
+    border-radius: 3px;
+    background-color: rgb(253, 78, 78);
+    font-size: 30px;
+  }
+  .prep{
+    font-size: 30px;
+    font-size: bold;
+  }
+  .visionparent{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    top: 18px;
+  }
+  .circle1{
+    height: 380px;
+    width: 380px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: -20px;
+    opacity: 0.5;
+  }
+  .i1{
+    background-image: url('./Images/web.jpg');
+    background-size: 100% 100%;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    z-index: -1;
+    bottom: 340px;
+    left: 8%;
+  }
+  .i2{
+    background-image: url('./Images/growth.jpg');
+    background-size: 100% 100%;
+    height: 30px;
+    width: 100px;
+    position: relative;
+   bottom: 310px;
+    left: 6%;
+    z-index: -1;
+  }
+  .i3{
+    background-image: url('./Images/coding.png');
+    background-size: 100% 100%;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    bottom: 285px;
+    left: 10.6%;
+    z-index: -1;
+  }
+  .i4{
+    background-image: url('./Images/devolopment.jpg');
+    background-size: 100% 100%;
+    height: 30px;
+    width: 140px;
+    position: relative;
+   bottom: 250px;
+    left: 8%;
+    z-index: -1;
+  }
+  .overlapimg{
+    background-image: url('./Images/removebg.png');
+    background-size: 100% 100%;
+    height: 380px;
+    width: 380px;
+    position: relative;
+    left: -25px;
+    top: 25px;
+     
+  }
+  .mission{
+    padding: 0px;
+    height: 100px;
+    width: 40%;
+
+    position: absolute;
+    left: 40%;
+    top: 10px;
+    font-size: 32px;
+    color: blue;
+    font-weight:bolder;
+  }
+  .and{
+    font-size: 50px; 
+    color:  gray;
+  }
+  .textcontainer{
+    height: 200px;
+    width: 55%;
+    position: absolute;
+    top: 50px;
+    color: gray;
+    text-align: justify;
+    position: absolute;
+    left: 40%;
+    top:90px;
+  }
+  .bgimg{
+    background-image: url(./Images/bgimg.jpg);
+    background-size: 100% 100%;
+    height: 730px;
+    width: 100%;
+    position: relative;
+    bottom: 200px;
+    z-index: -1;
+    overflow-x: hidden;
+  }
+  .bluline{
+    height: 200px;
+    width: 170px;
+    background-image: url('./Images/blueline.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 90%;
+   
+  }
+
+
+  /* mobile responsive */
+
+  @media only screen and (max-device-width: 480px) and (min-device-width: 320px) {
+    html,body{
+      overflow-x: hidden;
+    }
+    .menuicon{
+      display:block;
+      
+    }
+    .vanshikha{
+      display: none;
+    }
+    /* hide */
+    .mobile-log{
+      display: block;
+    }
+
+    .navcontainer{
+      height: 10vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding:10px;
+  }
+  .logo{
+      background-image: url('./Images/p1.jpg');
+      background-size: 100% 100%;
+      height: 50px;
+      width: 160px;
+      margin: auto;
+  }
+  .btn{
+    display: none;
+  }
+  ul {
+      display: none;
+    }
+
+  /* big image parent */
+  .bannerparent{
+    height: 800px;
+    width: 100%;
+    position: relative;
+    bottom: 10px;
+  }
+  
+  .bannerleft{
+    height: 45%;
+    width: 100%;
+    background-color: rgba(90, 90, 250, 0.897);
+    display: block;
+
+  }
+  .bannerright{
+  background-image: url('./Images/Abous-Us-Banner.jpg');
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  top: -20px;
+  }
+  li{
+    list-style-type:none;
+    padding: 0px;
+    margin: 0px;
+    width: 130%;
+    font-size: 24px;
+  }
+  .bannertext{
+    height: 40vh;
+    width:70%;
+    z-index: +1;
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    font-size: 22px;
+    color:white
+  } 
+  .bannerright{
+    background-image: url('./Images/Abous-Us-Banner.jpg');
+    background-size: 100% 100%;
+    height: 50%;
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+    }
+    .mission{
+      padding: 0px;
+      height: 50px;
+      width: 80%;
+      position: absolute;
+      left: 10%;
+      top: 360px;
+      font-size: 28px;
+      color: blue;
+      font-weight:bolder;
+    }
+  
+    .textcontainer{
+      height: 200px;
+      width: 80%;
+      position: absolute;
+      top: 50px;
+      color: gray;
+      text-align: justify;
+      position: absolute;
+      left: 10%;
+      top:450px;
+    }
+  /* overlap  circle*/
+  .circle1{
+    height: 350px;
+    width: 350px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    top: 800px;
+    left: 7%;
+    opacity: 0.5;
+  }
+  .i1{
+    background-image: url('./Images/web1.png');
+    background-size: 100% 100%;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    z-index: -1;
+    top: 120px;
+    left: 38%;
+  }
+  .i2{
+    background-image: url('./Images/growth1.png');
+    background-size: 100% 100%;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 135px;
+    left: 32%;
+    z-index: -1;
+  }
+  .i3{
+    background-image: url('./Images/coding.png');
+    background-size: 100% 100%;
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 160px;
+    left: 44%;
+    z-index: -1;
+  }
+  .i4{
+    background-image: url('./Images/devolopment1.png');
+    background-size: 100% 100%;
+    height: 30px;
+    width: 140px;
+    position: relative;
+    top: 195px;
+    left:37%;
+    z-index: -1;
+  }
+  .overlapimg{
+    background-image: url('./Images/removebg.png');
+    background-size: 100% 100%;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    left: 6%;
+    top: 445px;
+     
+  }
+.bluline{
+  display: none;
+}
+
+.bgimg{
+  background-image: url(./Images/bgimg.jpg);
+  background-size: 100% 100%;
+  height: 1350px;
+  width: 100%;
+  position: absolute;
+  top:1200px;
+  z-index: -2;
+  overflow-x: hidden;
+}
+
+  }
+
+  @media only screen and (max-width:1024px) and (min-width:768px){
+    html,body{
+      overflow-x: hidden;
+    }
+
+    .menuicon{
+      display:block;
+      
+    }
+    /* hide */
+    .mobile-log{
+      display: block;
+    }
+
+    .navcontainer{
+      height: 10vh;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding:10px;
+  
+  }
+  .logo{
+      background-image: url('./Images/p1.jpg');
+      background-size: 100% 100%;
+      height: 50px;
+      box-sizing: border-box;
+      padding-bottom: 60px;
+     
+  }
+  .btn{
+    display: none;
+  }
+  ul {
+      display: none;
+    }
+
+ 
+/* //banner css */
+.bigparent{
+  height: 400px;
+  width: 100%;
+  position: relative;
+  top: 65px;
+}
+.bannerparent{
+  height: 350px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  top: -50px;
+  flex-wrap: wrap;
+}
+
+.bannerleft{
+  height: 100%;
+  width: 48%;
+  background-color: rgba(90, 90, 250, 0.897);
+  border-radius: 10px solid blue;
+}
+.bannerright{
+background-image: url('./Images/Abous-Us-Banner.jpg');
+background-size: 100% 100%;
+height: 100%;
+width: 52%;
+}
+
+.bannertext{
+  height: 40vh;
+  width: 45%;
+  z-index: +1;
+  position: absolute;
+  top: 55px;
+  left: 5%;
+  font-size: 22px;
+  color:white
+} 
+.journy{
+  border-radius: 3px;
+  background-color: rgb(253, 78, 78);
+  font-size: 30px;
+}
+.prep{
+  font-size: 30px;
+  font-size: bold;
+}
+.mission{
+  height: 100px;
+  width: 80%;
+   position: absolute;
+  left: 52%;
+   top: -60px;
+  font-size: 24px;
+  color: blue;
+ 
+}
+.textcontainer{
+  height: 200px;
+  width: 45%;
+  color: gray;
+  text-align: justify;
+  position: absolute;
+  left: 52%;
+  top:10px;
+  font-size: 14px;
+}  
+.circle1{
+  height: 380px;
+  width: 380px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: -19px;
+  left: -20px;
+  opacity: 0.5;
+}
+.overlapimg{
+  background-image: url('./Images/removebg.png');
+  background-size: 100% 100%;
+  height: 380px;
+  width: 380px;
+  position: relative;
+  left: -25px;
+  top: -22px;
+   
+ }
+.bluline{
+  height: 180px;
+  width: 170px;
+  background-image: url('./Images/blueline.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  left: 85%;
+ top: -50px;
+ 
+}
+.bgimg{
+  background-image: url(./Images/bgimg.jpg);
+  background-size: cover;
+  height: 655px;
+  width: 100%;
+  position: relative;
+  bottom: 200px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+
+}
+  
